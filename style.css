@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans:wght@300;400;500&display=swap");
+
+body {
+    background-color: #f4f4f4;
+    font-family: 'Open-Sans', sans-serif;
+}
+
+.card-figure {
+    background-image: url('images/background.jpeg');
+    width: 350px;
+    height: 250px;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.card-figure:hover {
+    .card-figure-infos {
+      opacity: 1;
+      transition: .3s;
+    }
+}
+
+.card-figure-infos {
+    opacity: 0;
+    color: white;
+    margin-top: 190px;
+    position: absolute;
+    padding: 0px 0px 0px 20px;
+    width: 325px;
+    display: flex;
+    align-items: center;
+    transition: .3s;
+    background-color: #21212175;
+}
+
+.card-figure-infos .icons {
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    margin: 0 5px;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons i {
+    color: gray;
+}
+
+.card-figure-infos h3 {
+  width: 150px;
+  margin: 0;
+  padding-right: 70px;
+}
+
+#avatar {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+
+.card-infos {
+    display: flex;
+    align-items: center;
+}
+
+.card-infos h3 {
+    margin-right: 95px;
+    margin-left: 15px;
+}
+
+.figure-infos {
+    color: gray;
+}
